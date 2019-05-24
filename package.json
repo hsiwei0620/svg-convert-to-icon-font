@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "roger.lin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-hub": "^4.2.0",
+    "gulp-iconfont": "^10.0.2"
+  },
+  "dependencies": {
+    "async": "^3.0.0",
+    "node-gyp": "^4.0.0"
+  }
+}

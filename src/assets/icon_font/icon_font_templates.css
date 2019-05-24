@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "tby";
+  src: url('./tby.eot');
+  src: url('./tby.eot?#iefix') format('eot'),
+    url('./tby.woff2') format('woff2'),
+    url('./tby.woff') format('woff'),
+    url('./tby.ttf') format('truetype'),
+    url('./tby.svg#tby') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="tby-"]:before {
+  display: inline-block;
+  font-family: "tby";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tby-onlyBoard_fill_merge_path:before { content: "\EA01" }
